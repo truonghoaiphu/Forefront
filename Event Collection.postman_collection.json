@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "ebb2a342-be61-4e3d-85cc-6b089da9ba5a",
+		"name": "Event Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21163750"
+	},
+	"item": [
+		{
+			"name": "CreateEvents",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"title\": \"My Event\",\n  \"answer\": \"This is the answer.\",\n  \"dateOfEvent\": \"2024-10-08\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost/api/events",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api",
+						"events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetEvents",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
