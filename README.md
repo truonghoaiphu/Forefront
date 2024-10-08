@@ -2,7 +2,7 @@
 - Install docker, docker compose
 - `cp .env.example .env`
 - `docker-compose up -d`
-- `docker exec -it php-fpm /bin/bash`
+- `docker exec -it php-laravel /bin/bash`
     - `composer install`
     - `php artisan key:gen`
     - `php artisan migrate`
